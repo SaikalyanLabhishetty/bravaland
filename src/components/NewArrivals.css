@@ -1,0 +1,98 @@
+.title {
+    text-align: center;
+    margin-top: 2%;
+}
+.row{
+    margin-right: 6% !important;
+    margin-left: 6% !important;
+    margin-bottom: 5% !important;
+    margin-top: 2% !important;   
+}
+
+.hr1{
+    margin: 5px !important;
+    width: 90px !important;
+    display: inline-block !important;
+    height: 2px;
+}
+
+.card {
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+    margin-bottom: 20px;
+  }
+  
+  .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(140, 140, 140, 0.5); /* Use rgba to set the color with opacity */
+    border-radius: 10px;
+  }
+  
+  .card-image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-image:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(140, 140, 140, 0.5); /* Use rgba to set the color with opacity */
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-image:hover:before {
+    opacity: 1;
+  }
+  
+  .card-image:hover img {
+    transform: scale(1.2);
+  }
+  
+ 
+  
+.card-footer {
+    position: relative !important;
+    padding-top: 10px !important;
+    color: white !important;
+  }
+  
+  .card-footer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(143, 143, 143, 0.6); /* Use rgba to set the color with opacity */
+    border-radius: 10px;
+    z-index: -1;
+  }
+
+  .links {
+    color: white !important;
+    font-size: 14px;
+  }
+
+  .card-title {
+    font-size: 14px !important;
+  }

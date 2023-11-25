@@ -1,0 +1,69 @@
+.card-scroller {
+    width: 100%;
+    overflow-x: hidden !important;
+    position: relative;
+  }
+  
+  .scroll-container {
+    display: flex;
+    gap: 20px; /* Adjust gap between cards */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-bottom: 10px; /* Prevent potential horizontal scrollbars */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card-card {
+    width: 360px; /* Set the width of each card */
+    flex: 0 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+  }
+
+  .card-image img{
+    border-radius: 10px !important;
+  }
+
+  .card-image img:hover {
+    border-radius: 10px !important; 
+  }
+
+  .card-image:hover {
+    border-radius: 10px !important; 
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .left {
+    left: 1%;
+  }
+  
+  .right {
+    right: 1%;
+  }
+  
+.hr1{
+    width: 90px !important;
+    display: inline-block !important;
+    height: 2px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2%;
+}

@@ -1,0 +1,47 @@
+.hr1{
+    width: 90px !important;
+    display: inline-block !important;
+    height: 2px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contactPara {
+    text-align: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.form-container {
+    width: 50%; /* Adjust width as needed */
+    margin: auto;
+    margin-bottom: 3%;
+  }
+  
+  .form-group {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+   
+  }
+  
+  .form-control {
+    flex: 1;
+    border: none;
+    border-radius: 0;
+    margin: 1%;
+  }
+  
+  .btn-dark {
+    border-radius: 15px;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 20px !important;
+  }
+
+  
